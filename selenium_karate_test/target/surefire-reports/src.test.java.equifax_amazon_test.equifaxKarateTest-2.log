@@ -1,0 +1,127 @@
+13:13:11.299 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:13:11.311 request:
+1 > DELETE http://dummy.restapiexample.com/api/v1/delete/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+13:13:11.743 response time in milliseconds: 430.46
+1 < 500
+1 < Content-Length: 678
+1 < Content-Type: text/html; charset=iso-8859-1
+1 < Date: Thu, 08 Apr 2021 20:13:11 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Wed, 07 Apr 2021 20:13:11 GMT
+1 < Pagespeed: off
+1 < Response: 500
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Origin,Accept-Encoding]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 500
+1 < X-Sol: pub_site
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>500 Internal Server Error</title>
+</head><body>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error or
+misconfiguration and was unable to complete
+your request.</p>
+<p>Please contact the server administrator at 
+ webmaster@dummy.restapiexample.com to inform them of the time this error occurred,
+ and the actions you performed just before this error.</p>
+<p>More information about this error may be available
+in the server error log.</p>
+<p>Additionally, a 500 Internal Server Error
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+
+13:13:11.745 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 50; White spaces are required between publicId and systemId.
+13:13:11.746 status code was: 500, expected: 200, response time: 430, url: http://dummy.restapiexample.com/api/v1/delete/1, response: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>500 Internal Server Error</title>
+</head><body>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error or
+misconfiguration and was unable to complete
+your request.</p>
+<p>Please contact the server administrator at 
+ webmaster@dummy.restapiexample.com to inform them of the time this error occurred,
+ and the actions you performed just before this error.</p>
+<p>More information about this error may be available
+in the server error log.</p>
+<p>Additionally, a 500 Internal Server Error
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+>
+        </div>
+    </body>
+</html>
+
+
+13:06:34.241 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 50; columnNumber: 7; The element type "link" must be terminated by the matching end-tag "</link>".
+13:06:34.241 status code was: 429, expected: 200, response time: 2327, url: http://dummy.restapiexample.com/api/v1/delete/1, response: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
